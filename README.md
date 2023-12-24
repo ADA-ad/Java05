@@ -2,6 +2,7 @@
 ### URLとは  
   #### URL(Uniform Resource Locator)情報の場所を指定する記述。いわゆる情報の住所のこと。 
 ### クエリ文字列とは  
+  #### https://www.google.com/search?q=goole&sca
 ### パス変数（パスパラメーター）とは  
 ### クエリ文字列とパス変数の違いとは  
 ### HTTPメソッドとは  
