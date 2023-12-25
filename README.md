@@ -15,7 +15,7 @@ URI の  `?` マークの後でつけるテキストであり、特定のリソ�
 ```https://example.com/groups/{group_id}```  
 実際⇩    
 ```https://example.com/groups/1```  
-### ③パス変数（パスパラメーター）とは  
+### ③パス変数（パスパラメーター）とは   
 https://example.com/ **pathparameter/{pathparameter}**  `?` queryparameter1=hogehoge&queryparameter2=fugafuga      
 URI の  `?` マークの前につけるテキストであり、 特定のリソースを識別するために必要な情報を入れます。  
 
@@ -30,6 +30,12 @@ URI の  `?` マークの前につけるテキストであり、 特定のリソ
 ```https://example.com/groups/1?sort=false&limit=3```  
 
 ### ④クエリ文字列とパス変数の違いとは  
+#### 見た目の違い  
+```
+①https://zenn.dev/search
+②https://zenn.dev/search?q=Laravel
+```
+
 ### HTTPメソッドとは  
 ### GET/POST/PUT/PATCH/DELETEとは  
 ### リクエストヘッダーとは  
