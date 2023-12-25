@@ -25,9 +25,9 @@ URI の  `?` マークの前につけるテキストであり、 特定のリソ
 この場合、3件 と user_idの降順 という条件は 特定のリソースを操作して取得する際に必要な情報 なので設計と実際に叩くAPIは以下のようになります。
 
 設計⇩   
-```https://example.com/groups/{group_id}```  
+```https://example.com/groups/{group_id}?sort=boolean&limit=number```  
 実際⇩    
-```https://example.com/groups/1```  
+```https://example.com/groups/1?sort=false&limit=3```  
 
 ### クエリ文字列とパス変数の違いとは  
 ### HTTPメソッドとは  
