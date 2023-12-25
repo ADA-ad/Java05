@@ -5,9 +5,22 @@
 ### ②クエリ文字列とは  
 https://example.com/pathparameter/{pathparameter} `?` queryparameter1=hogehoge&queryparameter2=fugafuga       
 URI の  `?` マークの後でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。  
-<img width="731" alt="parameter" src="https://github.com/ADA-ad/Java05/assets/152973671/9bbee799-8d85-4a6f-be0f-ed965852782c">
+ 
+     
+この場合、groupId=１ は 特定のリソース識別するために必要な情報 なので設計と実際に叩くAPIは以下のようになります。   
 
-### ③パス変数（パスパラメーター）とは  
+設計⇩   
+```https://example.com/groups/{group_id}```  
+実際⇩    
+```https://example.com/groups/1```  
+### ③パス変数（パスパラメーター）とは   
+     
+この場合、groupId=１ は 特定のリソース識別するために必要な情報 なので設計と実際に叩くAPIは以下のようになります。   
+
+設計⇩   
+```https://example.com/groups/{group_id}```  
+実際⇩    
+```https://example.com/groups/1```  
 URI の  `?` マークの前につけるテキストであり、 特定のリソースを識別するために必要な情報を入れます。
 ### クエリ文字列とパス変数の違いとは  
 ### HTTPメソッドとは  
