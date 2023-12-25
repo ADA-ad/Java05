@@ -4,7 +4,8 @@
   URL(Uniform Resource Locator)情報の場所を指定する記述。いわゆる情報の住所のこと。 
 ### ②クエリ文字列とは  
 https://example.com/pathparameter/{pathparameter} `?` queryparameter1=hogehoge&queryparameter2=fugafuga       
-URI の  `?` マークの後でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。
+URI の  `?` マークの後でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。  
+![groups_tableとusers_table](./parameter.png)
 ### ③パス変数（パスパラメーター）とは  
 URI の  `?` マークの前につけるテキストであり、 特定のリソースを識別するために必要な情報を入れます。
 ### クエリ文字列とパス変数の違いとは  
