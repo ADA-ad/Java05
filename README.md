@@ -36,6 +36,10 @@ URI の  `?` マークの前につけるテキストであり、 特定のリソ
 ②https://zenn.dev/search?q=Laravel
 ```
 
+①と②の見た目違いとして「search」の後に「?〜」が」あるかどうか  
+①のパスパラメータはsearchの部分になる  
+②の場合、パスパラメータは①と同じくsearch、クエリパラメータは?q=Laravel   
+#### 中身の違い 
 ### HTTPメソッドとは  
 ### GET/POST/PUT/PATCH/DELETEとは  
 ### リクエストヘッダーとは  
