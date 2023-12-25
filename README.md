@@ -4,8 +4,8 @@
   URL(Uniform Resource Locator)情報の場所を指定する記述。いわゆる情報の住所のこと。 
 ### ②クエリ文字列とは  
 https://example.com/pathparameter/{pathparameter} `?` queryparameter1=hogehoge&queryparameter2=fugafuga       
-URI の  `?` マークの後でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。  
- 
+URI の  `?` マークの後でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。   
+<img width="668" alt="parameter" src="https://github.com/ADA-ad/Java05/assets/152973671/ba88d110-c25b-4ab5-817c-dd7641e9871c">  
      
 この場合、groupId=１ は 特定のリソース識別するために必要な情報 なので設計と実際に叩くAPIは以下のようになります。   
 
@@ -13,15 +13,18 @@ URI の  `?` マークの後でつけるテキストであり、特定のリソ�
 ```https://example.com/groups/{group_id}```  
 実際⇩    
 ```https://example.com/groups/1```  
-### ③パス変数（パスパラメーター）とは   
-     
-この場合、groupId=１ は 特定のリソース識別するために必要な情報 なので設計と実際に叩くAPIは以下のようになります。   
-
-設計⇩   
-```https://example.com/groups/{group_id}```  
-実際⇩    
-```https://example.com/groups/1```  
+### ③パス変数（パスパラメーター）とは  
+https://example.com/pathparameter/{pathparameter} `?` queryparameter1=hogehoge&queryparameter2=fugafuga      
 URI の  `?` マークの前につけるテキストであり、 特定のリソースを識別するために必要な情報を入れます。
+<img width="668" alt="parameter" src="https://github.com/ADA-ad/Java05/assets/152973671/ba88d110-c25b-4ab5-817c-dd7641e9871c">  
+
+この場合、groupId=１ は 特定のリソース識別するために必要な情報 なので設計と実際に叩くAPIは以下のようになります。   
+
+設計⇩   
+```https://example.com/groups/{group_id}```  
+実際⇩    
+```https://example.com/groups/1```  
+
 ### クエリ文字列とパス変数の違いとは  
 ### HTTPメソッドとは  
 ### GET/POST/PUT/PATCH/DELETEとは  
