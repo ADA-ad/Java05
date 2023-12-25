@@ -5,7 +5,8 @@
 ### ②クエリ文字列とは  
 https://example.com/pathparameter/{pathparameter} `?` queryparameter1=hogehoge&queryparameter2=fugafuga       
 URI の  `?` マークの後でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。  
-![groups_tableとusers_table](./parameter.png)
+<img width="731" alt="parameter" src="https://github.com/ADA-ad/Java05/assets/152973671/9bbee799-8d85-4a6f-be0f-ed965852782c">
+
 ### ③パス変数（パスパラメーター）とは  
 URI の  `?` マークの前につけるテキストであり、 特定のリソースを識別するために必要な情報を入れます。
 ### クエリ文字列とパス変数の違いとは  
