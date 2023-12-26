@@ -48,7 +48,16 @@ URI の  `?` マークの **前** につけるテキストであり、 特定の
 HTTPメソッドは、対象となるリソースに対して「何をしたいか」を指示する。  
 具体的に言うと、HTTPリクエストを用いてwebサーバーに具体的な要求をしているのはHTTPリクエスト内に含まれるHTTPメソッドです。  
 ### ⑥ GET/POST/PUT/PATCH/DELETEとは  
-<img width="520" alt="http" src="https://github.com/ADA-ad/Java05/assets/152973671/482de5d3-9a55-48e9-a2b2-436186f2108e">  
+<img width="520" alt="http" src="https://github.com/ADA-ad/Java05/assets/152973671/482de5d3-9a55-48e9-a2b2-436186f2108e">　　
+
+Markdownで表を記述する⇩ 　　
+| HTTPメソッド | はたらき |
+| :----: | :---- |
+| GET | リソース情報を取得する |
+| POST | 新しいリソース情報を送り込む | 
+| PUT | リソース情報を新しい情報で置き換える |
+| PATCH | リソース情報の一部を新しい情報で書き換える | 
+| DELETE | リソース情報を削除する |  
 
 GETメソッドは、データの参照時に使用します。リクエスト元の手元で使えるように、データを取得します。  
 - Webサイト閲覧（HTMLやCSS、画像、Javascriptの取得など）  
