@@ -3,9 +3,13 @@
 ### ①URLとは  
   URL(Uniform Resource Locator)情報の場所を指定する記述。いわゆる情報の住所のこと。 
 ### ②クエリ文字列とは  
-https://example.com/pathparameter/{pathparameter}?queryparameter1=hogehoge&queryparameter2=fugafuga**        
-URI の  `?` マークの **後** でつけるテキストであり、特定のリソースを操作して取得する際に必要な情報を入れます。  
-
+https://example.com/pathparameter/{pathparameter}?queryparameter1=hogehoge&queryparameter2=fugafuga        
+- URI で  `?` の **後** に来るやつ
+- 特定のリソースを**操作**して取得する際に必要な情報(Webページのオプションを指定する場合に使われる)  
+下記のURIであれば、foodsカテゴリのWebページにてラーメンを検索し、検索結果を降順で表示する。 
+```
+https://hogehoge.com/category/foods/?word=ラーメン&order=desc
+``` 
 <img width="268" alt="parameter" src="https://github.com/ADA-ad/Java05/assets/152973671/ba88d110-c25b-4ab5-817c-dd7641e9871c">　　
 
 例え上の図のようなテーブルがあり、そこから特定のグループ(グループ１)に紐づくユーザーを取得したいとします。     
@@ -16,9 +20,13 @@ URI の  `?` マークの **後** でつけるテキストであり、特定の�
 実際⇩    
 ```https://example.com/groups/1```  
 ### ③パス変数（パスパラメーター）とは   
-https://example.com/ **pathparameter/{pathparameter}**  `?` queryparameter1=hogehoge&queryparameter2=fugafuga      
-URI の  `?` マークの **前** につけるテキストであり、 特定のリソースを識別するために必要な情報を入れます。  
-
+https://example.com/pathparameter/{pathparameter}?queryparameter1=hogehoge&queryparameter2=fugafuga 
+- URIでドメインの後、 `?` マークの **前** に来るやつ
+- 特定のリソースを**識別**するために必要な情報(表示のベースとなるWebページそのものを指定することに使われる)      
+下記のURIであれば、foodsカテゴリ.drinksカテゴリなど、商品検索のベースとなるカテゴリを指定できる 
+```
+https://hogehoge.com/category/foods/?
+``` 
 <img width="268" alt="parameter" src="https://github.com/ADA-ad/Java05/assets/152973671/ba88d110-c25b-4ab5-817c-dd7641e9871c">　　
 
 例え上の図に特定のグループ(グループ１)に紐づくユーザーを3件、user_idの降順で取得したいとします。  
